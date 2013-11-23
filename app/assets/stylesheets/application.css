@@ -45,14 +45,14 @@ h1, h2 {
 }
 
 .second {
-  background: url(/assets/GoldenGateBridgeBW.png) no-repeat center center fixed; 
+  background: url(/assets/GoldenGateBridgeBWlarge.png) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-  background-size: contain;
+  background-size: cover;
   background-position: left top;
   height: 300px;
-
+  width: 100%;
 }
 
 /*vertically aligns div in parent container*/

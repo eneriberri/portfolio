@@ -1,3 +1,4 @@
 Portfolio::Application.routes.draw do
-  root to: "StaticPages#index"
+  get '/signup', to: 'StaticPages#signup'
+  root :to => "StaticPages#index"
 end

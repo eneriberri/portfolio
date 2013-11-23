@@ -15,7 +15,8 @@
     
     <div class="row collapse">
     <div class="small-6 large columns">
-      <h3>こんにちは。</h3>
+      <h3 id="welcome">Welcome.</h3> 
+      <!-- Welcome. in different languages -->
       <p></p>
       <br>
       
@@ -60,54 +61,69 @@
 <div class="row">
   <p></p><br>
   <h2><strong>Recent Projects</strong></h2>
-  <div class="small-6 large-centered columns">
+  <div class="small-9 large-centered columns">
     <br>
-    I build cool things.
-    Here are a few:
+    <div id="project-intro">I've built cool things. Here are a few of them:</div>
     <p></p><br>
     <div class="projects">
-    <h2><a href="http://pollcat.me">POLL CAT</a><small> Rails, Backbone.js &nbsp;2013</small></h2>
-    An interactive polling web app with the word cat in its name.
-    <p></p>
-    Parses real time data received through SMS. Graphically renders live feedback instantaneously with Websockets. Integrates Twilio API and Pusher API.
+      
+    <div class="row collapse">
+      <div class="small-6 large columns">
+      <h2><a href="http://pollcat.me">POLL CAT</a><small> Rails, Backbone.js &nbsp;2013</small></h2>
+      An interactive live polling web application.
+      <p></p>
+      Parses real time data received through SMS. Graphically renders live feedback instantaneously with Websockets. Integrates Twilio API and Pusher API.
+      </div>
+      <div class="small-6 large columns"><h3 id="cats-quote"> <br><p></p>"Time spent with cats <br>is never wasted."</h3></div>
+      </div>
     <br>
     <p></p>
+    <hr>
+    <br>
+    <div class="row collapse">
+      <div class="small-5 large columns"><h4>すげえ！！ <small>Includes capability to communicate with a web-server, controller functionality, template rendering, sessions storing, parameters (from both query string and response body). Features to add: routing.</small></h4></div>
+      <div class="small-7 large columns">
+      <h2><a href="http://github.com/eneriberri/rails-lite">RAILS STREAMLINED</a><small> Ruby 2013</small></h2>
+      Rebuilt the core components of the controller and view layers of Ruby on Rails.
+      </div>
+    </div>
     <br>
     <p></p>
-    <h2><a href="http://github.com/eneriberri/rails-lite">RAILS STREAMLINED</a><small> Ruby 2013</small></h2>
-    Rebuilt the core components of the controller and view layers of Ruby on Rails.
+    <hr>
     <br>
-    <p></p>
-    <br>
-    <p></p>
     <h2><a href="http://github.com/eneriberri/ActiveRecord">ACTIVERECORD CORE</a><small> Ruby 2013</small></h2>
     Rebuilt the model layer of Ruby on Rails.
     <p></p>
-    Includes query abstraction, associations, database connecting, smart saving
+    Includes query abstraction, model associations, database connecting, and smart saving.
     <br>
     <p></p>
     <br>
-    <p></p>
-    <h2><a href="http://github.com/eneriberri/Asteroids">ASTEROIDS</a><small> Javascript &nbsp;&nbsp;(2013)</small></h2>
+    <hr>
+    
+    <h2><a href="http://github.com/eneriberri/Asteroids">ASTEROIDS</a><small> Javascript 2013</small></h2>
     My take on the classic arcade game.
     <p></p>
     In browser game drawn with Canvas. Ship can accelerate in any direction with the arrow keys. Shoot bullets
     with the spacebar key. Destroy incoming asteroids. Collision = Game Over.
     <br>
     <p></p>
+    <hr>
     <br>
-    <p></p>
-    <h2><a href="http://github.com/eneriberri/MyChatApp">MY CHAT</a><small> Node.js &nbsp;&nbsp;(2013)</small></h2>
+    <h2><a href="http://github.com/eneriberri/MyChatApp">MY CHAT</a><small> Node.js 2013</small></h2>
     Minimalist chatroom app.
     <p></p>
     Uses Socket.IO client-side library to exchange data with the server. Supports multiple open chat rooms and nickname change functionality for users.
     <br>
     <p></p>
+    <hr>
     <br>
     </div>
   </div>
 </div>
 
 <div class="row">
-  <div class="small-6 large-centered columns"><h2 id="name-japanese">いりいん んぐいえん</h2></div>
+  <div class="small-3 large-centered columns">
+    <h4 id="name-japanese">いりいん んぐいえん</h4>
+  </div>
+  
 </div>

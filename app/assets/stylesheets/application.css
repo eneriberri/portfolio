@@ -54,7 +54,16 @@ h1, h2 {
   width: 100%;
 }
 
-/*vertically aligns div in parent container*/
+#project-intro {
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+#cats-quote {
+  text-align: center;
+}
+
+/*vertically aligns divs in parent container*/
 .block {
   text-align: center;
 }

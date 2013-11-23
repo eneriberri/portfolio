@@ -16,3 +16,20 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+$(document).ready(function() {
+  var counter = 0;
+  //fades welcome text
+  setInterval(function() {
+    welcome = ["Welcome.", "こんにちは。", "Bánh mì.", "오랜만이다 ", "Bienvenido.", "歡迎光臨"];
+    $('#welcome').fadeOut("slow", function() {
+      $('#welcome').text(welcome[counter]);
+      $('#welcome').fadeIn("slow");
+    });
+    
+    counter++;
+    if(counter === welcome.length - 1) {
+      counter = 0;
+    }
+  }, 3000)();
+})();

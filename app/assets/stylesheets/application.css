@@ -9,5 +9,50 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require foundation_and_overrides
+ *= require foundation
  *= require_tree .
  */
+
+h1, h2 {
+  text-align: center;
+}
+
+.name {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.name h1 {
+  color: rgba(255, 255, 255, 1)
+}
+
+.bg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.first {
+  background: url(/assets/tokyoblue.png) no-repeat center center fixed; 
+  height: 300px;
+  background-position: left top;
+
+}
+
+/*vertically aligns div in parent container*/
+.block {
+  text-align: center;
+}
+ 
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+ }
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+ }

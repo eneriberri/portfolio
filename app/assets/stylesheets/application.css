@@ -16,7 +16,6 @@
 
 h1, h2 {
   text-align: center;
-  font-weight: bold;
 }
 
 .name {
@@ -45,7 +44,7 @@ h1, h2 {
 }
 
 .second {
-  background: url(/assets/GoldenGateBridgeBWlarge.png) no-repeat center center fixed; 
+  background: url(/assets/GoldenGateBridgeBWcontrast.png) no-repeat center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;

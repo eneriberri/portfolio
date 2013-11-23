@@ -16,6 +16,7 @@
 
 h1, h2 {
   text-align: center;
+  font-weight: bold;
 }
 
 .name {
@@ -23,7 +24,13 @@ h1, h2 {
 }
 
 .name h1 {
-  color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1);
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.attributes {
+  text-transform: uppercase;
 }
 
 .bg {
@@ -35,6 +42,13 @@ h1, h2 {
 
 .first {
   background: url(/assets/tokyoblue.png) no-repeat center center fixed; 
+  height: 300px;
+  background-position: left top;
+
+}
+
+.second {
+  background: url(/assets/GoldenGateBridgeBW.png) no-repeat center center fixed; 
   height: 300px;
   background-position: left top;
 

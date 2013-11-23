@@ -33,24 +33,25 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-.bg {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .first {
-  background: url(/assets/tokyoblue.png) no-repeat center center fixed; 
-  height: 300px;
+  background: url(/assets/tokyobluewide.png) no-repeat center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   background-position: left top;
-
+  height: 300px;
+  width: 100%;
 }
 
 .second {
   background: url(/assets/GoldenGateBridgeBW.png) no-repeat center center fixed; 
-  height: 300px;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   background-position: left top;
+  height: 300px;
 
 }
 

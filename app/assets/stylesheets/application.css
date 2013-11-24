@@ -18,10 +18,10 @@ h1, h2 {
   text-align: center;
 }
 
-.sidepanelfill {
+/*.sidepanelfill {
   background-color: #191919;
   height: 100px;
-}
+}*/
 
 .name {
   background-color: rgba(0, 0, 0, 0.5);
@@ -104,7 +104,7 @@ h1, h2 {
 /*asteroids circle*/
 .wrapper {
  width: 90px;
- margin: 40px auto;  
+ margin: 35px auto;  
  text-align: center;
  position: relative;
 }

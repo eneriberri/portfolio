@@ -103,30 +103,43 @@ h1, h2 {
  
  
 /*asteroids circle*/
- .wrapper {
-   width: 90px;
-   margin: 70px auto;  
-   text-align: center;
-   position: relative;
- }
+.wrapper {
+ width: 90px;
+ margin: 70px auto;  
+ text-align: center;
+ position: relative;
+}
 
- .circle {
-  -webkit-backface-visibility: hidden;
-   position: absolute;
-   top: 0; left: 0;
-   display: inline-block;
-   border: 13px solid #00ace0;
-   border-radius: 100%;
-   width: 100px;
-   height: 100px;
-   opacity: .85;
-  
-   transition: all .2s ease-in-out;
- }
+.circle {
+-webkit-backface-visibility: hidden;
+ position: absolute;
+ top: 0; left: 0;
+ display: inline-block;
+ border: 13px solid #00ace0;
+ border-radius: 100%;
+ width: 100px;
+ height: 100px;
+ opacity: .85;
 
- .circle:hover {
-   opacity: .2;
-   width: 200px; height: 200px;
-   margin-top: -50px;
-   margin-left: -50px;
- }
+ transition: all .2s ease-in-out;
+}
+
+.circle:hover {
+ opacity: .2;
+ width: 200px; height: 200px;
+ margin-top: -50px;
+ margin-left: -50px;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#name-japanese {
+  color: #fff;
+}

@@ -34,14 +34,4 @@ $(document).ready(function() {
     }
   }, 3200);
   
-  // text on asteroids circle hover
-  // $('.circle').on('mouseover', function() {
-  //   setInterval(function() {
-  //     $('.circle').fadeIn("slow", function() {
-  //       $('.circle').html("<p></p><br><br><br><h4>小惑星</h4>");
-  //     });
-  //     
-  //   }, 200);
-  // });
-  
 });

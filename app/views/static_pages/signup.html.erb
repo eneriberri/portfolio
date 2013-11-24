@@ -1,20 +1,38 @@
 <div class="row">
   <h1>Sign Up</h1>
   <div class="small-6 large-centered columns">
-    <form action="users_url" method="post" accept-charset="utf-8" class="custom">
-      <label for="phone_number">Phone Number</label>
-      <input type="text" name="user[phone]" id="phone_number">
-  
-      <label for="location">Zip Code</label>
-      <input type="text" name="user[zip_code]" id="location">
-  
-      <label for="birthday">Birthday</label>
-      <input type="date" name="usern[birthday]" id="birthday">
-  
-      <label for="gender">Gender</label>
-      <input type="radio" name="user[gender]" value="M" id="gender-m"><label for="gender-m">Male</label>
-      <input type="radio" name="user[gender]" value="F" id="gender-f"><label for="gender-f">Female</label>
+    <form action="users_url" method="post" accept-charset="utf-8" class="custom" data-abide>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    
+      <div class="phone-field">
+        <label for="phone_number">Phone Number</label>
+        <input type="text" name="user[phone]" id="phone_number" pattern="integer" required>
+        <small class="error">Phone is required and must be a number.</small>
+      </div>
+      
+      <div class="pw-field">
+        <label for="password">Password</label>
+        <input type="password" name="user[password]" value="" id="password" required>
+        <small class="error">Password is required.</small>
+      </div>
+      
+      <div class="zip-field">
+        <label for="location">Zip Code</label>
+        <input type="text" name="user[zip_code]" id="location" pattern="integer" required>
+        <small class="error">Zip code is required.</small>
+      </div>
+      
+      <div class="bday-field">
+        <label for="birthday">Birthday</label>
+        <input type="date" name="user[birthday]" id="birthday" required>
+        <small class="error">Birthday is required.</small>
+      </div>
+      <br>
+
+      <input type="checkbox" name="user[nsfw]" value="true" id="nsfw"><label>Allow NSFW content</label>
+
       <p></p>
+      
       <p><input type="submit" value="Sign Up" class="button expand"></p>
     </form>
   </div>

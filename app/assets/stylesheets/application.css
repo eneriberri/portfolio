@@ -18,6 +18,12 @@ h1, h2 {
   text-align: center;
 }
 
+.sidepanelfill {
+  background-color: #191919;
+  height: 100px;
+  width: 200px;
+}
+
 .name {
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -54,6 +60,17 @@ h1, h2 {
   width: 100%;
 }
 
+.third {
+  background: url(/assets/japantools.png) no-repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  background-position: left top;
+  height: 300px;
+  width: 100%;
+}
+
 #project-intro {
   letter-spacing: 4px;
   text-align: center;
@@ -78,4 +95,34 @@ h1, h2 {
 .centered {
   display: inline-block;
   vertical-align: middle;
+ }
+ 
+ 
+/*asteroids circle*/
+ .wrapper {
+   width: 90px;
+   margin: 70px auto;  
+   text-align: center;
+   position: relative;
+ }
+
+ .circle {
+  -webkit-backface-visibility: hidden;
+   position: absolute;
+   top: 0; left: 0;
+   display: inline-block;
+   border: 13px solid #00ace0;
+   border-radius: 100%;
+   width: 100px;
+   height: 100px;
+   opacity: .85;
+  
+   transition: all .2s ease-in-out;
+ }
+
+ .circle:hover {
+   opacity: .2;
+   width: 200px; height: 200px;
+   margin-top: -50px;
+   margin-left: -50px;
  }

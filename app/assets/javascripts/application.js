@@ -21,15 +21,27 @@ $(document).ready(function() {
   var counter = 0;
   //fades welcome text
   setInterval(function() {
-    welcome = ["Welcome.", "こんにちは。", "Bánh mì.", "오랜만이다 ", "Bienvenido.", "歡迎光臨"];
+    welcome = ["Welcome.", "こんにちは。", "Chào đón.", "오랜만이다 ", 
+               "Bienvenido.", "歡迎光臨", "Willkommen.", "أهلا وسهلا"];
     $('#welcome').fadeOut("slow", function() {
       $('#welcome').text(welcome[counter]);
       $('#welcome').fadeIn("slow");
     });
     
     counter++;
-    if(counter === welcome.length - 1) {
+    if(counter === welcome.length) {
       counter = 0;
     }
-  }, 3000)();
-})();
+  }, 3200);
+  
+  // text on asteroids circle hover
+  // $('.circle').on('mouseover', function() {
+  //   setInterval(function() {
+  //     $('.circle').fadeIn("slow", function() {
+  //       $('.circle').html("<p></p><br><br><br><h4>小惑星</h4>");
+  //     });
+  //     
+  //   }, 200);
+  // });
+  
+});

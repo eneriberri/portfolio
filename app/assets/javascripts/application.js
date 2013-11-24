@@ -21,10 +21,10 @@ $(document).ready(function() {
   var counter = 0;
   //fades welcome text
   setInterval(function() {
-    welcome = ["Welcome.", "こんにちは。", "Chào đón.", "오랜만이다 ", 
-               "Bienvenido.", "歡迎光臨", "Willkommen.", "أهلا وسهلا"];
+    welcome = ["&nbsp;&nbsp;&nbsp; Welcome.", "&nbsp;&nbsp;&nbsp; こんにちは。", "&nbsp;&nbsp;&nbsp; Chào đón.", "&nbsp;&nbsp;&nbsp; 오랜만이다 ", 
+               "&nbsp;&nbsp;&nbsp; Bienvenido.", "&nbsp;&nbsp;&nbsp; 歡迎光臨", "&nbsp;&nbsp;&nbsp; Willkommen.", "&nbsp;&nbsp;&nbsp; أهلا وسهلا"];
     $('#welcome').fadeOut("slow", function() {
-      $('#welcome').text(welcome[counter]);
+      $('#welcome').html(welcome[counter]);
       $('#welcome').fadeIn("slow");
     });
     

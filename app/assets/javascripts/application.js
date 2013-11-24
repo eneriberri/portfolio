@@ -21,8 +21,8 @@ $(document).ready(function() {
   var counter = 0;
   //fades welcome text
   setInterval(function() {
-    welcome = ["&nbsp;&nbsp;&nbsp; Welcome.", "&nbsp;&nbsp;&nbsp; こんにちは。", "&nbsp;&nbsp;&nbsp; Chào đón.", "&nbsp;&nbsp;&nbsp; 오랜만이다 ", 
-               "&nbsp;&nbsp;&nbsp; Bienvenido.", "&nbsp;&nbsp;&nbsp; 歡迎光臨", "&nbsp;&nbsp;&nbsp; Willkommen.", "&nbsp;&nbsp;&nbsp; أهلا وسهلا"];
+    welcome = ["&nbsp;&nbsp;&nbsp; Hello.", "&nbsp;&nbsp;&nbsp; 今日は。", "&nbsp;&nbsp;&nbsp; Chào đón.", "&nbsp;&nbsp;&nbsp; 안녕하세요 ", 
+               "&nbsp;&nbsp;&nbsp; Hola.", "&nbsp;&nbsp;&nbsp; 你好", "&nbsp;&nbsp;&nbsp; Hallo.", "&nbsp;&nbsp;&nbsp; مرحبا"];
     $('#welcome').fadeOut("slow", function() {
       $('#welcome').html(welcome[counter]);
       $('#welcome').fadeIn("slow");

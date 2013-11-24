@@ -80,6 +80,10 @@ h1, h2 {
   text-align: center;
 }
 
+.contact-info h2 {
+  text-align: left;
+}
+
 /*vertically aligns divs in parent container*/
 .block {
   text-align: center;

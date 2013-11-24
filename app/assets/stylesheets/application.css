@@ -21,7 +21,6 @@ h1, h2 {
 .sidepanelfill {
   background-color: #191919;
   height: 100px;
-  width: 200px;
 }
 
 .name {
@@ -105,7 +104,7 @@ h1, h2 {
 /*asteroids circle*/
 .wrapper {
  width: 90px;
- margin: 70px auto;  
+ margin: 40px auto;  
  text-align: center;
  position: relative;
 }

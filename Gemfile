@@ -33,4 +33,5 @@ gem 'jquery-rails'
 gem 'backbone-on-rails'
 gem 'ejs'
 gem 'foundation-rails'
+gem 'newrelic_rpm'
 
